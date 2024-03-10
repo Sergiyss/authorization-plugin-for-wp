@@ -1,0 +1,190 @@
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: none;
+}
+
+.popup h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.popup p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.popup.show {
+  display: block;
+}
+
+
+.popup .btn {
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background: #5972a7;
+    color: white;
+}
+
+.popup .btn:hover {
+    background: #72aee6;
+    cursor: pointer;
+}
+
+.wpb_wrapper p {
+    margin: 0 0 10px;
+    color: #5972a7;
+}
+
+.console p {
+    margin: 0 0 10px;
+    color: #5972a7;
+    font-size: 18px;
+    width: 70%;
+    background: #ffa50063;
+    padding: 5px;
+}
+
+
+.form_auth_block_content h2.form_auth_block_head_text {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.1;
+    margin-top: 15px;
+    color: #5972a7 !important;
+}
+
+
+.form_auth_block_content label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #4d5c98;
+}
+
+form.form_auth_style input[type="password"],
+form.form_auth_style input[type="email"],
+form.form_auth_style input[type="text"] {
+    width: 40% !important;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+
+.generate {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.generate img {
+    width: 38px;
+    height: 38px;
+    border: 1px solid;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.generate p {
+    font-size: 14px;
+    color: black;
+}
+
+/**
+ * Список
+ * */
+
+ul#myList {
+    scroll-behavior: unset;
+    width: 40%;
+    height: 20em;
+    line-height: 2em;
+    border: 1px solid #ccc;
+    padding: 0;
+    margin: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+ul#myList li {
+    background: white;
+    font-size: 16px;
+    color: #4d5c98;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+ #input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#select-list {
+  display: none;
+  margin-top: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  position: absolute;
+  z-index: 1;
+}
+
+#select-list li {
+  list-style-type: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#select-list li:hover {
+  background-color: #ddd;
+}
+
+
+/**
+ * Обновление данных
+ * */
+
+ .red_user_data {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+.red_user_data input[type="text"] {
+    width: 40% !important;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+button.detele_user_date_btn,
+button.update_user_date_btn {
+    width: 100px;
+    height: 40px;
+}
+
+
+.error_input {
+    color: red;
+    font-weight: 700;
+}
